@@ -1,0 +1,26 @@
+.portfolio-page {
+    margin-top: 100px;
+    border: 0;
+    padding: 10px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+  }
+  .portfolio-category {
+    margin-bottom: 25px;
+    margin-bottom: 25px;
+    width: 100%;
+    /*margin-left: 200px;*/
+    /*margin-right: 200px;*/
+  }
+  .portfolio-category-content {
+    /*display: flex;*/
+  
+    display: grid;
+    /*grid-template-columns: repeat(4, 1fr);*/
+    grid-auto-rows: 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+  
+    grid-template-columns: repeat(3, minmax(250px, 1fr));
+  
+  }
