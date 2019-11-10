@@ -9,10 +9,11 @@ import {PortfolioCardComponent} from './portfolio/portfolioCard.component';
 import { OurworkComponent } from './ourwork/ourwork.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
+import { SignInComponent } from 'src/app/component/sign-in/sign-in.component';
 
 
 @NgModule({
-  declarations: [ StrategyComponent, QuantComponent, PortfolioComponent, PortfolioCardComponent, OurworkComponent, LoginComponent, RegisterComponent ],
+  declarations: [ StrategyComponent, SignInComponent, QuantComponent, PortfolioComponent, PortfolioCardComponent, OurworkComponent, LoginComponent, RegisterComponent ],
   imports: [
     CommonModule, 
     HomeModule,
